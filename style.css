@@ -9,3 +9,14 @@
 section {
   padding-top: 5rem;
 }
+.sosmed img {
+  width: 33px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.sosmed {
+  margin-top: 3rem;
+}
+.up {
+  margin-right: 5px;
+}

@@ -4,16 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>fegi portfolio</title>
+    <title>portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     >
   </head>
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top" data-aos="fade-down" data-aos-duration="1500">
       <div class="container">
-        <a class="navbar-brand" href="#">Fegi Lutfiantoro</a>
+        <a class="navbar-brand" href="#"><img src="img/profile.jpg" alt="" width="35" class="rounded-circle shadow up" />Fegi Lutfiantoro</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,10 +38,17 @@
     </nav>
     <!-- akhir navbar -->
     <!-- jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" data-aos="fade-down" data-aos-duration="1500">
       <img src="img/profile.jpg" alt="Fegi Lutfiantoro" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4" style="font-weight: bold">Fegi Lutfiantoro</h1>
-      <p class="lead" style="font-weight: bold">Rakyat | Mahasiswa</p>
+      <h1 class="display-4 text-light" style="font-weight: bold">Fegi Lutfiantoro</h1>
+      <p class="lead text-light" style="font-weight: bold">Mahasiswa</p>
+      <div class="sosmed">
+        <p>Sosial Media</p>
+        <a href="https://instagram.com/fegilutfiantoro_?igshid=YmMyMTA2M2Y="><img src="img/ig.png" alt="logo ig" /></a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B6283196407206&text=Assalamualaikum&app_absent=0"><img src="img/wa.png" alt="logo wa" /></a>
+        <a href="https://www.facebook.com/fegi.lutfiantoro.1"><img src="img/fb.png" alt="logo fb" /></a>
+      </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -55,17 +63,17 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2 class="fw-bold">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-right" data-aos-duration="2000">
             <p>
               Kenalin!, udah tau nama gue kan? udah dongg, Saya mahasiswa dari banjarnegara yang bermimpi menjadi seorang AKTOR, tapi mustahil untuk saya capai karna itu hanyalah mimpi<i class="bi bi-emoji-laughing"></i>, sebenernya masih
               banyak lagi tentang saya kalo mau tau sini aja kerumahku ehh rumah orang tuaku maksudnya, lupa gak punnya rumah wkwk<i class="bi bi-emoji-smile-upside-down"></i>.
             </p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">
             <p>
               I'm a student at STIMIK Tunas Bangsa Banjarnegara, I live in the Pagentan area and was born here too, and my motivation is "keep eating while you're alive", that's all I can't tell anymore because my story with him has been
               closed haha.
@@ -73,6 +81,7 @@
           </div>
         </div>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#707070"
@@ -88,11 +97,18 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Galery</h2>
+            <h2 class="text-light fw-bold">My Galery</h2>
+          </div>
+          <div class="text-light" data-aos="zoom-in-down" data-aos-duration="2000">
+            <p>
+              Sedikit galeri tentang diriku, iya aku, orang biasa yang banyak mimpi tapi sedikit aksi<i class="bi bi-emoji-frown"></i>, Gue suka mengarang puisi disaat sendiri walaupun tidak sebagus milik fiersa besari, ini adalah puisi
+              yang pernah aku ketik tapi nyontek di google wkw<i class="bi bi-emoji-smile-upside-down"></i>.
+            </p>
+            <p>Udah skip aja galeri nya gak ada yang menarik, kan yang menarik kamu hehe<i class="bi bi-emoji-laughing"></i></p>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+        <div class="row justify-content-center fst-italic">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="220">
             <div class="card">
               <img src="img/gambar1.jpg" class="card-img-top" alt="gambar1" />
               <div class="card-body">
@@ -100,23 +116,23 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="card">
               <img src="img/gambar2.jpg" class="card-img-top" alt="gambar2" />
               <div class="card-body">
-                <p class="card-text">Kata HELLEN KELLER "Optimisme adalah keyakinan yang mengarah pada prestasi. Tidak ada yang bisa dilakukan tanpa harapan dan kepercayaan diri."</p>
+                <p class="card-text fst-italic">Jalanmu tak akan tersesat selama kamu tau arah kiblat, gagal menjadi yang terbaik dimata manusia tak mengapa, asalkan jangan gagal menjadi manusia yang baik dimata allah.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="card">
               <img src="img/gambar3.jpg" class="card-img-top" alt="gambar3" />
               <div class="card-body">
-                <p class="card-text">Seberapa besar masalahmu, seberapa besar sakitmu, seberapa sedih hatimu. Dengan tersenyum adalah jalan terbaik menutupi segalanya.</p>
+                <p class="card-text">Tidak perlu banyak menjelaskan tentang dirimu di hadapan manusia, cukup perbaiki ketaatanmu di hadapannya sebab dipuji allah lebih baik daripada mengaharapkan pujian manusia yang semu.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="card">
               <img src="img/gambar4.jpg" class="card-img-top" alt="gambar4" />
               <div class="card-body">
@@ -124,7 +140,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="card">
               <img src="img/gambar5.jpg" class="card-img-top" alt="gambar5" />
               <div class="card-body">
@@ -145,10 +161,11 @@
     <!-- galery akhir -->
     <!-- contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000">
+        >
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 class="fw-bold">Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -171,6 +188,7 @@
           </div>
         </div>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#707070"
@@ -187,5 +205,9 @@
     <!-- footerakhir -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
